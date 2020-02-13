@@ -17,10 +17,10 @@ nav {
 }
 
 #logo img {
-    width: 80px;
+    width: 100px;
     background: #fff;
     border-radius: 50%;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav ol li {
@@ -42,7 +42,7 @@ nav ol li a {
     background-size: cover;
     margin-top: -30px;
 }
-/*  */
+/* 文字區域 */
 section h1 {
     color: #f9c300;
     font-size: 32px;
@@ -50,8 +50,8 @@ section h1 {
     padding: 50px 0;
 }
 
-#month, #partner {
-    width: 100px;
+#month, #partner #news {
+    width: 1000px;
     margin: 0 auto;
     
 }
@@ -59,4 +59,13 @@ section h1 {
 #partner li {
     margin-left: 20px;
     padding: 10px 0;
+}
+
+/* 頁尾 */
+footer {
+    background: #f9c300;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 150px;
 }
